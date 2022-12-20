@@ -1,9 +1,22 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es2016",
+//     "moduleResolution": "node",
+//     "outDir": "dist",
+//   }
+// }
+
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es2016",
-    "moduleResolution": "node",
+    "rootDirs": ["src"],
     "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"]
   }
 }
